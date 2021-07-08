@@ -1,0 +1,9 @@
+name: 'iOS Helper Action'
+description: 'Tool for iOS developers to automate tedious tasks like swiftlint, pod-lib-lint, install, run, test.'
+inputs:
+  action:  # action
+    description: 'automate tedious tasks'
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"
