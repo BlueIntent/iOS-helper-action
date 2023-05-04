@@ -19,7 +19,7 @@ Action for iOS developers to automate tedious tasks like swiftlint, pod-lib-lint
   Test a scheme from the build root (SYMROOT).  This requires specifying a scheme and optionally a destination.
 
 ```
-- uses: BlueIntent/iOS-helper-action@v0.0.1
+- uses: BlueIntent/iOS-helper-action@v1.0
   with:
     action: 'swiftlint'
 ```
